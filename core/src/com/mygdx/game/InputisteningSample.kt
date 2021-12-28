@@ -12,7 +12,7 @@ import com.badlogic.gdx.utils.viewport.FitViewport
 import com.badlogic.gdx.utils.viewport.Viewport
 import com.mygdx.game.utils.logger
 
-class InputisteningSample: ApplicationAdapter(), InputProcessor {
+class InputisteningSample : ApplicationAdapter(), InputProcessor {
 
     companion object {
         @JvmStatic
@@ -55,9 +55,9 @@ class InputisteningSample: ApplicationAdapter(), InputProcessor {
     }
 
 
-    private fun dro(){
-        for ( i in 0 until messages.size) {
-            font.draw(batch, messages[i], 20f, 720f - 40f * (i+1))
+    private fun dro() {
+        for (i in 0 until messages.size) {
+            font.draw(batch, messages[i], 20f, 720f - 40f * (i + 1))
         }
     }
 
